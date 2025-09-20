@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import WeatherHome from "./WeatherHome";
 import FirstPage from "./pages/Firstpage";
-import Login from "./pages/Login";
+import Login from "./pages/login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Info from "./pages/Info";
