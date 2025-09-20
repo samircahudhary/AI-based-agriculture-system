@@ -1,7 +1,7 @@
 import React from "react";
 import cowSit from "../assets/cow-sit.jpg";
 import cowDance from "../assets/cow-dance.jpg";
-import "./Login.css";
+import "./login.css";
 
 export default function Login() {
   return (
