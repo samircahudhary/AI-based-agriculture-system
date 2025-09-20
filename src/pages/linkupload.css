@@ -1,0 +1,118 @@
+/* Scoped linkupload CSS — uses the .linkupload namespace to avoid clashes */
+
+/* Reset box-sizing for contained components */
+.linkupload,
+.linkupload * {
+  box-sizing: border-box;
+}
+
+/* Root container */
+.linkupload__cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: stretch;
+  padding: 38px;
+  width: 100%;
+  background: #000000;
+  
+}
+
+/* Card */
+.linkupload__card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(9, 30, 66, 0.08);
+  padding: 24px;
+  max-width: 420px;
+  flex: 1 1 320px;       /* grow | shrink | base */
+  min-width: 260px;      /* prevents cards from collapsing too small */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+
+  box-shadow: 0 0 20px rgb(255, 8, 218),
+              0 0 4px rgba(255, 6, 6, 0.99),
+              0 0 6px rgb(255, 0, 0);
+               transition: all 0.2s ease-in-out;
+}
+
+.linkupload__card:hover{
+  box-shadow: 0 0 20px rgb(255, 8, 8),
+              0 0 40px rgba(255, 6, 214, 0.99),
+              0 0 6px rgb(255, 0, 144);
+               transition: all 0.2s ease-in-out;
+                transform: translateY(-3px) scale(1.02);
+
+}
+
+
+/* Heading + text */
+.linkupload__card h2 {
+  font-size: 20px;
+  margin: 0 0 12px 0;
+  color: #2b7a78;
+}
+.linkupload__card p {
+  font-size: 14.5px;
+  color: #444;
+  margin: 0 0 18px 0;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.linkupload__btn {
+  display: inline-block;
+  background: #2b7a78;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  transition: transform .14s ease, background .14s ease;
+}
+
+/* file input (styled) */
+.linkupload__filelabel {
+  align-self: start;
+  cursor: pointer;
+}
+.linkupload__fileinput {
+  display: none; /* hidden native input */
+}
+.linkupload__btn:hover {
+  transform: translateY(-3px);
+  background: #205c56;
+}
+
+/* Force card content to be responsive inside parent flex containers */
+.linkupload__card {
+  min-width: 0; /* important when inside other flex parents */
+}
+
+/* MEDIA: stack vertically on narrow screens */
+@media (max-width: 900px) {
+  .linkupload__cards-container {
+    gap: 18px;
+    padding: 18px;
+  }
+  .linkupload__card {
+    flex: 1 1 100% !important;  /* take full width */
+    max-width: 900px;
+    width: 100%;
+  }
+}
+
+/* extra small screens */
+@media (max-width: 460px) {
+  .linkupload__card {
+    padding: 18px;
+  }
+  .linkupload__card h2 { font-size: 18px; }
+  .linkupload__card p { font-size: 14px; }
+  .linkupload__btn { width: 100%; }
+}

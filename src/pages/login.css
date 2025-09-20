@@ -1,0 +1,88 @@
+/* Container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #fdfffb, #f9f9f9);
+  text-align: center;
+}
+
+/* Heading */
+.login-heading {
+  font-size: 2rem;
+  color: rgb(45, 42, 42);
+  margin-bottom: 20px;
+}
+
+/* Form */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 300px;
+  background: #fff;
+}
+
+.login-form input {
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background-color: #ffffff;
+  border: black 1px solid;
+}
+
+.login-submit {
+  padding: 12px;
+  background: #1abc9c;
+  color: rgb(255, 246, 246);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-submit:hover {
+  background: #108216;
+}
+
+/* Cow Wrapper */
+.cow-wrapper {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-top: 40px;
+}
+
+/* Both cow images stacked */
+.cow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: auto;
+  transition: opacity 0.9s ease-in-out, transform 0.4s ease-in-out;
+}
+
+/* Normal cow visible by default */
+.cow-normal {
+  opacity: 1;
+}
+
+/* Dancing cow hidden initially */
+.cow-dance {
+  opacity: 0;
+}
+
+/* On hover: swap images */
+.cow-wrapper:hover .cow-normal {
+  opacity: 0;
+  transform: scale(0.1) rotate(-860deg);
+}
+
+.cow-wrapper:hover .cow-dance {
+  opacity: 1;
+  transform: scale(1.1) rotate(360deg);
+}

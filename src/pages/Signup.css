@@ -1,0 +1,115 @@
+/* Storm background */
+.storm-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Lightning flash */
+.storm-container.flashing {
+  animation: lightning-flash 0.3s ease-out;
+}
+@keyframes lightning-flash {
+  0% { background-color: rgba(230, 230, 255, 0.8); }
+  50% { background-color: rgba(200, 200, 240, 0.4); }
+  100% { background-color: transparent; }
+}
+
+/* Raindrops */
+.raindrop {
+  position: absolute;
+  bottom: 100%;
+  width: 1.5px;
+  height: 70px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.4));
+  animation-name: fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes fall {
+  to { transform: translateY(110vh); }
+}
+
+/* Signup form container */
+.signup-container {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+/* Form styles */
+.signup-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 320px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.signup-form input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+.signup-form input:focus {
+  border-color: #56ab2f;
+  outline: none;
+}
+
+.signup-submit {
+  padding: 12px;
+  background-color: #56ab2f;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.signup-submit:hover {
+  background-color: #3d8b2f;
+}
+
+.back-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.3s;
+}
+.back-btn:hover {
+  background: #222;
+}

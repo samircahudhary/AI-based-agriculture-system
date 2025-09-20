@@ -1,0 +1,16 @@
+.prediction-box {
+  background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.pred-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 10px;
+}

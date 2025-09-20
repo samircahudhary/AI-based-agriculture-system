@@ -1,0 +1,41 @@
+.app {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #e6eef8;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.header-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.loading,
+.error {
+  margin-top: 10px;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.loading {
+  background: rgba(255,255,255,0.03);
+}
+
+.error {
+  background: #3b0d0d;
+  color: #ffd5d5;
+}

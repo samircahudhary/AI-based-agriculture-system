@@ -1,0 +1,91 @@
+.info-page {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 30px;
+}
+
+.info-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.info-card {
+  flex: 1 1 320px; /* Grow/shrink but min width 320px */
+  max-width: 500px;
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-weight: 400;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.info-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: #00796b;
+  border-bottom: 2px solid #e0f2f1;
+  padding-bottom: 8px;
+}
+
+.info-card p {
+  font-size: 1rem;
+  color: #333;
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.info-card strong {
+  color: #1b5e20;
+}
+
+/* ✅ Responsive tweaks */
+@media (max-width: 768px) {
+  .info-title {
+    font-size: 1.8rem;
+  }
+  .info-card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-page {
+    padding: 10px;
+  }
+  .info-title {
+    font-size: 1.5rem;
+  }
+  .info-card {
+    padding: 15px;
+  }
+  .info-card h3 {
+    font-size: 1.2rem;
+  }
+  .info-card p {
+    font-size: 0.9rem;
+  }
+}

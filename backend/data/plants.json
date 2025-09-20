@@ -1,0 +1,142 @@
+[
+  {
+    "id": 21,
+    "name": "Tomato",
+    "description": "A versatile fruit, botanically a berry, commonly used as a vegetable in cooking. Rich in lycopene, an antioxidant. Varieties range from small cherry tomatoes to large beefsteak types.",
+    "tips": "Store at room temperature away from direct sunlight. Refrigeration can alter texture and flavor. To ripen faster, place in a paper bag.",
+    "url": "https://homesteadhow-to.com/wp-content/uploads/2024/05/tomato-disease-1536x1024.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Apple",
+    "description": "A crisp, pomaceous fruit known for its wide range of cultivars like Gala, Granny Smith, and Fuji. High in fiber and vitamin C. 'An apple a day keeps the doctor away' is a popular health-related proverb.",
+    "tips": "Store in the crisper drawer of the refrigerator to maintain freshness for several weeks. Keep away from other produce as they release ethylene gas.",
+    "url": "https://th.bing.com/th/id/OIP.6EL4DxNCga540mBnvN3UFgHaEK?w=333&h=187&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3"
+  },
+  {
+    "id": 23,
+    "name": "Banana",
+    "description": "A tropical fruit, botanically a berry, rich in potassium and carbohydrates. Bananas grow in clusters hanging from the top of the plant. They ripen after being harvested, turning from green to yellow.",
+    "tips": "Keep at room temperature. To slow ripening, separate them and wrap stems in plastic wrap. Overripe bananas can be peeled and frozen for smoothies.",
+    "url": "https://th.bing.com/th/id/OIP.dvZ64RzO2Ru-2UK0mSPh0wHaFj?w=201&h=180&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3"
+  },
+  {
+    "id": 24,
+    "name": "Mango",
+    "description": "A sweet, tropical stone fruit known as the 'king of fruits' in some regions. The flesh is juicy and can be fibrous depending on the variety. High in vitamins A and C.",
+    "tips": "Store at room temperature until ripe. Once ripe, they can be stored in the refrigerator for up to five days. Peeled and cut mango can be frozen.",
+    "url": "https://th.bing.com/th/id/OIP.uLnsAIPSH6SlgDbLy32v3QHaD4?w=332&h=180&c=7&r=0&o=7&dpr=1.2&pid=1.7&rm=3"
+  },
+  {
+    "id": 25,
+    "name": "Orange",
+    "description": "A citrus fruit renowned for its high vitamin C content. It has a tough, orange-colored rind (peel) and juicy flesh divided into segments. Widely used for juice and flavoring.",
+    "tips": "Can be stored at room temperature for about a week or in the refrigerator for up to a month. Store them loose rather than in an airtight plastic bag.",
+    "url": "https://via.placeholder.com/200x150.png?text=Detailed+Orange"
+  },
+  {
+    "id": 26,
+    "name": "Potato",
+    "description": "A starchy tuber vegetable, one of the most common staple foods globally. Rich in potassium and vitamin B6. Can be baked, fried, boiled, or mashed. Comes in many varieties like Russet and Yukon Gold.",
+    "tips": "Store in a cool, dark, and well-ventilated place. Do not refrigerate, as cold temperatures convert starch to sugar, affecting taste and cooking properties.",
+    "url": "https://via.placeholder.com/200x150.png?text=Detailed+Potato"
+  },
+  {
+    "id": 27,
+    "name": "Lemon",
+    "description": "A yellow citrus fruit with acidic juice, widely used for culinary and cleaning purposes.",
+    " tips": "Store in a sealed plastic bag in the refrigerator's crisper drawer to keep them fresh for up to a month.",
+    "url": "https://via.placeholder.com/200x150.png?text=Lemon"
+  },
+  {
+    "id": 28,
+    "name": "Kiwi",
+    "description": "A small, fuzzy brown fruit with bright green flesh, tiny black seeds, and a sweet-tart flavor.",
+    "tips": "Store at room temperature to ripen. Once ripe, keep in the refrigerator for up to 7-10 days.",
+    "url": "https://via.placeholder.com/200x150.png?text=Kiwi"
+  },
+  {
+    "id": 29,
+    "name": "Garlic",
+    "description": "A species in the onion genus, Allium. Widely used for its pungent flavor as a seasoning or condiment.",
+    "tips": "Keep in a cool, dark, dry place with good air circulation. Do not store in the refrigerator or in plastic bags.",
+    "url": "https://via.placeholder.com/200x150.png?text=Garlic"
+  },
+  {
+    "id": 30,
+    "name": "Ginger",
+    "description": "A flowering plant whose rhizome, ginger root, is widely used as a spice and a folk medicine.",
+    "tips": "Store unpeeled ginger in a resealable plastic bag in the crisper drawer of the refrigerator. It can also be frozen for long-term storage.",
+    "url": "https://via.placeholder.com/200x150.png?text=Ginger"
+  },
+  {
+    "id": 31,
+    "name": "Cauliflower",
+    "description": "A cruciferous vegetable composed of a white, firm, and compact head of undeveloped flower buds (curd).",
+    "tips": "Store in the refrigerator with the stem-side up to prevent moisture from collecting on the curd. Keep in a perforated plastic bag.",
+    "url": "https://via.placeholder.com/200x150.png?text=Cauliflower"
+  },
+  {
+    "id": 32,
+    "name": "Sweet Potato",
+    "description": "A starchy, sweet-tasting root vegetable. Despite the name, it is only distantly related to the common potato.",
+    "tips": "Store in a cool, dry, and well-ventilated area, similar to potatoes. Avoid refrigeration.",
+    "url": "https://via.placeholder.com/200x150.png?text=Sweet+Potato"
+  },
+  {
+    "id": 33,
+    "name": "Corn",
+    "description": "A tall cereal grass that yields large grains, or kernels, set in rows on a cob.",
+    " tips": "For best flavor, eat as soon as possible. Store in the refrigerator with the husks on to prevent the kernels from drying out.",
+    "url": "https://via.placeholder.com/200x150.png?text=Corn"
+  },
+  {
+    "id": 34,
+    "name": "Mushroom",
+    "description": "The fleshy, spore-bearing fruiting body of a fungus, typically produced above ground on soil or on its food source.",
+    "tips": "Store in a paper bag in the main compartment of the refrigerator. Avoid plastic bags, which trap moisture and cause spoilage.",
+    "url": "https://via.placeholder.com/200x150.png?text=Mushroom"
+  },
+  {
+    "id": 35,
+    "name": "Asparagus",
+    "description": "A spring vegetable with tender spears, a member of the lily family.",
+    "tips": "Trim the ends and stand the spears upright in a jar with an inch of water, then cover loosely with a plastic bag and refrigerate.",
+    "url": "https://via.placeholder.com/200x150.png?text=Asparagus"
+  },
+  {
+    "id": 36,
+    "name": "Green Beans",
+    "description": "Young, unripe fruits of various cultivars of the common bean.",
+    "tips": "Store unwashed in a perforated plastic bag in the refrigerator's crisper drawer. Use within a week for best freshness.",
+    "url": "https://via.placeholder.com/200x150.png?text=Green+Beans"
+  },
+  {
+    "id": 37,
+    "name": "Pomegranate",
+    "description": "A fruit with a hard, reddish outer skin containing hundreds of edible seeds called arils.",
+    "tips": "Store whole pomegranates in the refrigerator for up to two months. The arils can be refrigerated for a week or frozen for up to a year.",
+    "url": "https://via.placeholder.com/200x150.png?text=Pomegranate"
+  },
+  {
+    "id": 38,
+    "name": "Peach",
+    "description": "A sweet, juicy stone fruit with fuzzy skin and soft, yellow or white flesh.",
+    "tips": "Ripen at room temperature. Once ripe, store in the refrigerator's crisper drawer and consume within a few days.",
+    "url": "https://via.placeholder.com/200x150.png?text=Peach"
+  },
+  {
+    "id": 39,
+    "name": "Pear",
+    "description": "A sweet, mild fruit with a fibrous interior. Pears ripen best after they are picked.",
+    "tips": "Leave firm, unripe pears at room temperature. Once they yield to gentle pressure at the neck, they are ripe and can be refrigerated.",
+    "url": "https://via.placeholder.com/200x150.png?text=Pear"
+  },
+  {
+    "id": 40,
+    "name": "xxx",
+    "description": "Its not a plant or fruit.",
+    "tips": "N/A",
+    "url": "https://via.placeholder.com/200x150.png?text=Image+Not+Applicable"
+  }
+]

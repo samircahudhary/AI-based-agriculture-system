@@ -1,0 +1,21 @@
+.suggestions {
+  background: linear-gradient(135deg, #fff9c4, #ffe0b2);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  text-align: left;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.suggestions ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestions li {
+  padding: 8px 0;
+  font-size: 1rem;
+}

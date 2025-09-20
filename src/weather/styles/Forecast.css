@@ -1,0 +1,67 @@
+/* src/weather/styles/Forecast.css */
+.forecast {
+  margin: 20px auto;
+  text-align: center;
+  width: 90%;
+}
+
+.forecast-grid {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.forecast-card {
+  background: linear-gradient(135deg, #ffffff, #ffffff); /* gradient card */
+  padding: 15px 10px;
+  border-radius: 15px;
+  width: 120px;
+  color: #000000;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1), 0 3px 6px rgba(0,0,0,0.08);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.5s ease;
+  
+  /* animated shine overlay */
+  overflow: hidden;
+}
+
+.forecast-card::before {
+  content: "";
+  position: absolute;
+  top: -50%; left: -50%;
+  width: 200%; height: 200%;
+  background: linear-gradient(120deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.2) 100%);
+  transform: rotate(45deg);
+  transition: all 0.5s;
+}
+
+.forecast-card:hover::before {
+  transform: translateX(20px) rotate(45deg);
+}
+
+.forecast-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.2), 0 8px 10px rgba(0,0,0,0.1);
+  background: linear-gradient(135deg, #ffffff, #00acc1);
+  box-shadow: 0 0 20px rgb(8, 255, 239),
+              0 0 2px rgba(6, 255, 255, 0.99),
+              0 0 6px rgba(0, 255, 251, 0.819);
+               transition: all 0.2s ease-in-out;
+
+}
+
+.forecast-card img {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.2));
+}
+
+.forecast-card span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
